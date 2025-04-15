@@ -19,6 +19,7 @@ a {
 form {
     background-color: #fff;
     border-radius: 6px;
+    box-shadow: 5px 5px 2px 1px rgba(140, 153, 140, 0.1);
     padding: 20px;
     margin-bottom: 30px;
     display: flex;
@@ -47,6 +48,7 @@ form {
 .quote {
     background-color: #fff;
     border-left: #252925 5px solid;
+    box-shadow: 5px 5px 2px 1px rgba(140, 153, 140, 0.1);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     padding: 30px;

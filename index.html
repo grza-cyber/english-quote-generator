@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI English Quote Generator</title>
     <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 </head>
 <body>
     <div class="wrapper">
@@ -12,12 +13,12 @@
         <h1>🐞 AI English Quote Generator 🐞</h1>
     </header>
     <main>
-        <form>
-            <input type="text" placeholder="Enter the topic of the quote" focus required autocomplete="off" class="quote-topic-input" />
-            <input type="submit" value="Generate" class="button" />
+        <form id="quote-form">
+            <input type="text" placeholder="Enter the topic of the quote" focus required autocomplete="off" id="quote-input" class="quote-topic-input" />
+            <input type="submit" value="Generate" id="quote-button" class="button" />
         </form>
-        <div class="quote">
-            Don't judge each day by the harvest you reap but by the seeds that you plant.
+        <div id="quote-element" class="quote">
+            
         </div>
     </main>
     <footer>
