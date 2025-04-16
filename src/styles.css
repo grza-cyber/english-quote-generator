@@ -16,6 +16,9 @@ a {
     color: #252925;
     font-weight:500;
 }
+strong {
+    color: #b338b3;
+}
 form {
     background-color: #fff;
     border-radius: 6px;
@@ -51,6 +54,7 @@ form {
     box-shadow: 5px 5px 2px 1px rgba(140, 153, 140, 0.1);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
+    line-height: 1.5;
     padding: 30px;
 }
 footer {
