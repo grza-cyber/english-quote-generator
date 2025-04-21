@@ -1,5 +1,9 @@
 body {
-    background-color: #c1d1cf;
+    /*background-color: #c1d1cf; */
+    background-image: linear-gradient(rgba(83, 198, 226, 0.663), rgba(214, 214, 157, 0.651)), url("../background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     font-family: Arial, Helvetica, sans-serif;
 }
 .wrapper {
@@ -7,9 +11,9 @@ body {
     max-width: 600px;
 }
 h1 {
-    color: #252925;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
+    color: #29054b;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
     text-align: center;
 }
 a {
@@ -21,17 +25,19 @@ strong {
 }
 form {
     background-color: #fff;
-    border-radius: 6px;
+    border-radius: 10px;
     box-shadow: 5px 5px 2px 1px rgba(140, 153, 140, 0.1);
     padding: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 30px;   
+}
+.form-elements {
     display: flex;
 }
 .quote-topic-input {
-    border-radius: 20px;
+    border-radius: 50px;
     border: 1px solid #868585;
     font-size: 18px;
-    padding: 20px;
+    padding-left: 20px;
     width: 80%;
 }
 .quote-topic-input:focus {
@@ -40,13 +46,17 @@ form {
     outline: none;
 }
 .button {
-    background-color: #252925;
+    background-color: #29054b;
     border: none;
     border-radius: 20px;
     color: #fff;
     font-size: 18px;
     padding: 20px 30px;
     margin-left: 15px;
+}
+.hint {
+    padding-top: 10px;
+    margin-left: 20px;
 }
 .quote {
     background-color: #fff;
@@ -56,6 +66,9 @@ form {
     font-size: 20px;
     line-height: 1.5;
     padding: 30px;
+}
+.hidden {
+    display: none;
 }
 footer {
     font-size: 14px;

@@ -11,14 +11,18 @@
 <body>
     <div class="wrapper">
     <header>
-        <h1>🐞 AI English Quote Generator 🐞</h1>
+        <h1>AI English Quote Generator 🐞</h1>
     </header>
     <main>
         <form id="quote-form">
+            <div class="form-elements">
             <input type="text" placeholder="Enter the topic of the quote" focus required autocomplete="off" id="quote-topic-input" class="quote-topic-input" />
-            <input type="submit" value="Generate" id="quote-button" class="button" />
+            <input type="submit" value="Submit" id="quote-button" class="button" />
+            </div>    
+            <div class="hint">i.e. uplifting, time, inspirational, wisdom</div>
         </form>
-        <div id="quote-element" class="quote">
+        
+        <div id="quote-element" class="quote hidden">
             
         </div>
     </main>
