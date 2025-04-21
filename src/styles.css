@@ -2,7 +2,7 @@ body {
     /*background-color: #c1d1cf; */
     background-image: linear-gradient(rgba(83, 198, 226, 0.663), rgba(214, 214, 157, 0.651)), url("../background.jpg");
     background-attachment: fixed;
-    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -66,6 +66,7 @@ form {
     font-size: 20px;
     line-height: 1.5;
     padding: 30px;
+    
 }
 .hidden {
     display: none;
